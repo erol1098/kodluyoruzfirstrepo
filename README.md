@@ -1,6 +1,6 @@
 # Kodluyoruz First Repo
 
-This repo [Kodluyoruz](https://www.kodluyoruz.org) is the first repo created for Front-End Training. It contains a README file and an index.html file.
+This repo [Kodluyoruz](https://www.kodluyoruz.org) is the first repo created for Front-End Training. It contains homeworks.
 
 ![github](./Repo.jpg)
 
