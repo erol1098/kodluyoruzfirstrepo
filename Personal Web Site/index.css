@@ -1,0 +1,64 @@
+body {
+  background-color: dimgray;
+}
+#header {
+  color: white;
+  background-color: black;
+  font-family: "Lobster", cursive;
+  font-family: "Orbitron", sans-serif;
+  border-bottom: 5px red solid;
+}
+#container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#h1 {
+  padding: 10px;
+}
+#navigation {
+  font-size: 15px;
+}
+#main {
+  background: rgba(0, 0, 0, 0.5) url("./banner.jpg");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  padding: 10%;
+}
+#mcontainer {
+  color: white;
+  font-family: "Lobster", cursive;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  font-size: large;
+  margin: auto;
+}
+#home {
+  margin: 20px;
+}
+#about {
+  margin: 20px;
+}
+#contact {
+  margin: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0%;
+  margin: auto;
+}
+li {
+  margin: auto;
+  text-align: -webkit-match-parent;
+}
