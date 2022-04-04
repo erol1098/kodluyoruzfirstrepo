@@ -1,0 +1,39 @@
+.logo {
+  margin: auto;
+  display: block;
+}
+.main {
+  text-align: center;
+  background-color: rgb(231, 229, 229);
+}
+.desc {
+  margin-bottom: 0;
+}
+
+.search-bar {
+  width: 50%;
+}
+
+ul {
+  list-style: none;
+  margin: 0 0;
+}
+p {
+  margin: 0 0;
+  text-align: center;
+}
+.special-search {
+  background-color: rgba(0, 206, 209, 0.473);
+  text-align: center;
+}
+.links {
+  background-color: rgba(2, 204, 207, 0.795);
+  text-align: center;
+}
+.mail {
+  background-color: darkturquoise;
+  text-align: center;
+}
+.copyright {
+  margin: 10px auto;
+}
