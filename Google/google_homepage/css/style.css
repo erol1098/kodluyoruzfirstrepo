@@ -129,7 +129,7 @@
   text-align: start;
   appearance: textfield;
   cursor: text;
-  width: 100%;
+  width: 480px;
   border: none;
   position: absolute;
   top: 74px;
@@ -139,7 +139,6 @@
   display: flex;
   justify-content: center;
   margin-top: 30px;
-  font-size: small;
 }
 .googlesearch {
   margin-right: 10px;
@@ -149,10 +148,6 @@
   text-align: center;
   cursor: pointer;
   user-select: none;
-  border: none;
-  border-radius: 5px;
-  background: #f2f2f2;
-  color: #5f6368;
 }
 
 .feelinglucky {
@@ -162,10 +157,6 @@
   text-align: center;
   cursor: pointer;
   user-select: none;
-  border: none;
-  border-radius: 5px;
-  background: #f2f2f2;
-  color: #5f6368;
 }
 .googlesearch:hover {
   border: 1px solid #c6c6c6;
@@ -173,7 +164,15 @@
 .feelinglucky:hover {
   border: 1px solid #c6c6c6;
 }
-
+.btn {
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  background: #f2f2f2;
+  color: #5f6368;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  height: 36px;
+}
 .footer {
   margin: 0;
   padding: 0;
