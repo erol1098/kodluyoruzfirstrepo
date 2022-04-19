@@ -3,8 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.main {
-  align-items: center;
+body {
   background: top right
     linear-gradient(
       90deg,
@@ -12,6 +11,9 @@
       rgba(255, 0, 0, 0.5) 35%,
       rgba(255, 255, 255, 1) 100%
     );
+}
+.main {
+  align-items: center;
   display: grid;
   grid-template-columns: 1fr;
   align-items: start;
@@ -41,6 +43,10 @@
   font-size: 50px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
+.welcome:hover {
+  color: red;
+  background-color: rgba(255, 255, 255, 0.4);
+}
 .date {
   display: flex;
   align-items: center;
@@ -49,7 +55,11 @@
   font-size: 60px;
   font-family: monospace;
 }
-
+.date:hover {
+  padding: 10px 50px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+}
 .content {
   font-family: "Lobster", cursive;
   font-size: 30px;
