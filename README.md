@@ -1,3 +1,5 @@
+[www.patika.dev](https://www.patika.dev)
+
 # Kodluyoruz First Repo
 
 This repo [Kodluyoruz](https://www.kodluyoruz.org) is the first repo created for Front-End Training. It contains homeworks.
