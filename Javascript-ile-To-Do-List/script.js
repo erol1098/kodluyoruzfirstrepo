@@ -8,20 +8,15 @@ const listItem = document.querySelector(".list-item");
 const del = document.querySelectorAll(".delete");
 let counter = 0;
 list.addEventListener("click", (e) => {
+  const target = e.target;
+  const parent = target.parentElement;
   if (e.target.classList.contains("delete")) {
-    const target = e.target;
-    const parent = target.parentElement;
     parent.remove();
-  }
-});
-
-list.addEventListener("click", (e) => {
-  if (e.target.classList.contains("text")) {
-    const target = e.target;
-    const parent = target.parentElement;
-    target.classList.toggle("display-text");
+  } else {
+    const parent = target.closest(".list-item");
     parent.classList.toggle("display-row");
-    parent.button.style.color = "black";
+    parent.querySelector(".text").classList.toggle("display-text");
+    parent.querySelector(".done").classList.toggle("hide");
   }
 });
 
@@ -33,9 +28,10 @@ addBtn.addEventListener("click", function (e) {
   } else {
     const listItem = document.createElement("div");
     listItem.innerHTML = `
-  <button class="done">✓</button><p class="text">${textbox.value}</p>
+  <button class="done hide">✓</button><p class="text">${textbox.value}</p>
   <button class="delete">✕</button>`;
-    list.appendChild(listItem);
+    list.append(listItem);
+
     localStorage.setItem(
       `toDo${++counter} ${new Date().toLocaleDateString()}`,
       textbox.value
